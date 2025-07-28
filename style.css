@@ -2,3 +2,7 @@ body {
     background-image: url('./img/breaking-bad-1182023.png');
     background-size: cover;
 }
+
+.container {
+    background-color: #333;
+}

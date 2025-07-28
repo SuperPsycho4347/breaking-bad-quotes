@@ -16,6 +16,11 @@ async function fetchQuote(url) {
 }
 
 function displayQuote(author, quote) {
+    const quotesText = document.createElement('h1');
+
+    quotesText.textContent = quote;
+    quoteDiv.appendChild(quotesText)
+
     const authorText = document.createElement('h1');
     // console.log(author)
     authorText.textContent = author;
