@@ -11,7 +11,6 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     align-items: center;
 }
@@ -21,14 +20,19 @@ body {
     background-color: #333;
     height: 50%;
     width: 50%;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
 }
 
 .container .quotes {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .quotes .quote {
+    text-align: center;
 }
