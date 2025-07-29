@@ -20,7 +20,6 @@ body {
     align-items: center;
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: white;
-    /* box-sizing: border-box; */
 }
 
 .container {
@@ -32,7 +31,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 14px;
-    padding: 1.5rem;
+    padding: 0.2rem;
+    gap: 1rem;
 }
 
 .container .quotes {
@@ -44,7 +44,7 @@ body {
 
 .container .quotes h1 {
     color: var(--primary-color);
-    margin-bottom: -0.4rem;
+    margin-bottom: -0.2rem;
 }
 
 .container .quotes p {
@@ -54,13 +54,18 @@ body {
 }
 
 .container .quote {
-    font-family: 'Mulish';
+    font-family: 'Merriweather';
     text-align: center;
     text-wrap: wrap;
+    font-size: 1.5rem;
+    font-weight: 2.5rem;
+    width: 100%;
 }
 
 .container .author {
-    font-family: 'Merriweather';
-    font-weight: lighter;
-    font-size: small;
+    font-family: 'Mulish';
+    font-weight: 1.5rem;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: 1.2rem;
 }

@@ -16,13 +16,13 @@ async function fetchQuote(url) {
 }
 
 function displayQuote(author, quote) {
-    const quotesText = document.createElement('h1');
+    const quotesText = document.createElement('blockquote');
 
-    quotesText.textContent = quote;
+    quotesText.textContent = "\"" + quote + "\"";
     quoteDiv.appendChild(quotesText)
 
-    const authorText = document.createElement('h1');
+    const authorText = document.createElement('quote');
     // console.log(author)
-    authorText.textContent = author;
+    authorText.textContent = "-" + author;
     authorDiv.appendChild(authorText)
 }
