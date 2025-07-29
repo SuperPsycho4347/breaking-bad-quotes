@@ -72,3 +72,22 @@ body {
     margin-left: auto;
     margin-right: 1.2rem;
 }
+
+@media (max-width: 810px) {
+    .container {
+        align-items: center;
+        width: 70%;
+        height: 45%;
+        justify-content: space-between;
+        padding: 1.2rem;
+        height: fit-content;
+    }
+
+    .container .quotes {
+        text-align: center;
+    }
+
+    .container .quote {
+        text-wrap-style: pretty;
+    }
+}
