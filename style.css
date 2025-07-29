@@ -4,6 +4,7 @@
 
 html {
     height: 100%;
+    box-sizing: border-box;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     align-items: center;
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: white;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .container {
@@ -37,15 +38,29 @@ body {
 .container .quotes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
+    gap: 0.2rem;
 }
 
 .container .quotes h1 {
     color: var(--primary-color);
+    margin-bottom: -0.4rem;
 }
 
-.container .quotes .quote {
+.container .quotes p {
+    font-family: 'Merriweather';
+    font-weight: lighter;
+    color: #9b9a9a;
+}
+
+.container .quote {
+    font-family: 'Mulish';
     text-align: center;
+    text-wrap: wrap;
+}
+
+.container .author {
+    font-family: 'Merriweather';
+    font-weight: lighter;
+    font-size: small;
 }
