@@ -1,11 +1,9 @@
+// Variables
 const url = "https://api.breakingbadquotes.xyz/v1/quotes"
 const authorDiv = document.querySelector('.author')
 const quoteDiv = document.querySelector('.quote')
 
-
-fetchQuote(url)
-
-
+// Functions
 async function fetchQuote(url) {
     const response = await fetch(url);
     const responseJSON = await response.json();
@@ -26,3 +24,6 @@ function displayQuote(author, quote) {
     authorText.textContent = "-" + author;
     authorDiv.appendChild(authorText)
 }
+
+// Function Calls
+fetchQuote(url)
